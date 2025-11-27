@@ -30,7 +30,7 @@ function Home() {
   }
   return (
     <div class="bg-[#15171a] flex flex-col items-center justify-center h-screen w-full ">
-      <h1 class="text-[70px] text-[#FFF]  ">Lista de tarefas</h1>
+      <h1 class="text-[70px] text-[#FFF] font-bold">Lista de tarefas</h1>
       <span class="text-[16px] mb-[8px] text-[#FFF] mt-[-14px]">
         Gerencie sua agenda de forma fácil.
       </span>

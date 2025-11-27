@@ -28,7 +28,7 @@ function Register() {
 
   return (
     <div class="bg-[#15171a] flex flex-col items-center justify-center h-screen w-full ">
-      <h1 class="text-[70px] text-[#FFF]  ">Cadastre-se</h1>
+      <h1 class="text-[70px] text-[#FFF] font-bold ">Cadastre-se</h1>
       <span class="text-[16px] mb-[8px] text-[#FFF] mt-[-14px]">
         Vamos criar sua conta!
       </span>

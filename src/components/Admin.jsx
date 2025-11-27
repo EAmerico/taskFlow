@@ -118,7 +118,7 @@ function Admin() {
 
   return (
     <div class="bg-[#15171a] flex flex-col items-center h-screen">
-      <h1 class="text-[42px] mt-[16px] text-[#FFF]  ">Minhas tarefas</h1>
+      <h1 class="text-[42px] mt-[16px] text-[#FFF] font-bold ">Minhas tarefas</h1>
       {erro && (
         <div class="mt-[12px]">
           <Alert
