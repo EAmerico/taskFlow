@@ -123,7 +123,7 @@ function Admin() {
         <div class="mt-[12px]">
           <Alert
             variant="destructive"
-            className="rounded-xl shadow-lg bg-red-100 text-red-700 border border border-red-300 duration-400"
+            className="rounded-xl shadow-lg bg-red-100 text-red-700 border border border-red-300 duration-400 mb-[16px]"
           >
             <AlertTitle className="text-[16px]">Digite uma tarefa!</AlertTitle>
             <AlertDescription className="text-[15px]">
@@ -132,7 +132,7 @@ function Admin() {
           </Alert>
         </div>
       )}
-      ;
+      
       <form onSubmit={handleRegister} class="w-full max-w-[600px] mx-auto">
         <textarea
           class="w-full h-[80px] flex flex-col p-[10px] text-[#000] bg-[#FFF] border-0 rounded-[4px] mt-[12px] mb-[12px] placeholder:text-gray-500
