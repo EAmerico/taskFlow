@@ -47,7 +47,7 @@ function Home() {
           </Alert>
         </div>
       )}
-      ;
+
       <form
         onSubmit={handleLogin}
         class="flex flex-col w-[90%] max-w-[600px] flex items-center justify-center "
