@@ -31,11 +31,11 @@ function Home() {
   return (
     <div class="bg-[#15171a] flex flex-col items-center justify-center h-screen w-full ">
       <h1 class="text-[70px] text-[#FFF] font-bold">TaskFlow</h1>
-      <span class="text-[16px] mb-[8px] text-[#FFF] mt-[-14px]">
+      <span class="text-[16px] mb-[24px] text-[#FFF] mt-[-12px]">
         Gerencie sua agenda de forma fácil.
       </span>
       {erro && (
-        <div className="w-full max-w-md mx-auto mt-4 animate-in fade-in duration-600">
+        <div className="w-full max-w-md mx-auto animate-in fade-in duration-600 mb-[16px]">
           <Alert
             variant="destructive"
             className="rounded-xl shadow-lg bg-red-100 text-red-700 border border border-red-300"
