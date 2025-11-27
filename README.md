@@ -6,23 +6,39 @@ Um aplicativo simples e eficiente para organização de atividades diárias. Per
 🚀 Tecnologias utilizadas
 
 ReactJS
+
 Vite
+
 Firebase Authentication
+
 Firebase Firestore
+
 TailwindCSS
+
 Shardcn/ui
+
 JavaScript (ES6+)
+
 
 📚 Funcionalidades
 
 🔐 Autenticação de usuários (login e cadastro)
+
 📝 Criar novas tarefas
+
 ✏️ Editar tarefas existentes
+
 🗑️ Excluir tarefas
+
 ☁️ Dados armazenados no Firebase Firestore
+
 🔒 Rotas protegidas para usuários autenticados
+
 📱 Interface responsiva
+
 📂 Estrutura do projeto
+
+
 src/
  ├─ components/
  
