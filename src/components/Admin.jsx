@@ -155,7 +155,7 @@ function Admin() {
       {tarefas.map((item) => (
         <article
           key={item.id}
-          class="text-[#fff] w-[90%] max-w-[600px] mb-[16px] mt-[14px] flex flex-col bg p-[12px] bg-gray-400 border-0 rounded-[4px]"
+          class="text-blue-600 w-[90%] max-w-[600px] mb-[16px] mt-[14px] flex flex-col bg p-[12px] bg-gray-600 border-0 rounded-[4px]"
         >
           <p class="mb-[10px]">{item.tarefa}</p>
 
